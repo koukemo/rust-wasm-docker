@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:4507:4507"
     volumes:
       # :cached を付与して、高速化
       - .:/var/workspace:cached
