@@ -28,10 +28,10 @@ docker exec -it rust-wasm-docker_app_1 bash
 Runs in a container
 
 ```
-deno run --allow-net --allow-read  https://deno.land/std@0.98.0/http/file_server.ts
+deno run --allow-net --allow-read  https://deno.land/std@0.136.0/http/file_server.ts
 ```
 
-If you browse the following link from your browser messages will be displayed.
+If you browse the following link from your browser messages will be displayed. <br>
 http://localhost:4507/wasm-deno-sample/server/public/greet.html
 
 ### Results
