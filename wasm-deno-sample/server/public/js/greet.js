@@ -113,8 +113,8 @@ async function init(input) {
     return wasm;
 }
 async function run() {
-    const file = await fetch('../public/pkg/wasm_deno_bg.wasm');
+    const file = await fetch('../public/pkg/wasm_deno_sample_bg.wasm');
     await init(file);
-    greet('nabezokodaikon');
+    greet('koukemo');
 }
 run();
