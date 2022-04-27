@@ -34,6 +34,12 @@ deno run --allow-net --allow-read  https://deno.land/std@0.98.0/http/file_server
 If you browse the following link from your browser messages will be displayed.
 http://localhost:4507/wasm-deno-sample/server/public/greet.html
 
+### Results
+
+![result_terminal](Results/terminal_sample.png)
+
+![result_browser](Results/browser_sample.png)
+
 ## References
 
 - [WebブラウザでWebAssemblyをDeno(TypeScript)で書いたコードで読み込む - Qiita](https://qiita.com/nabezokodaikon/items/37a35cfff0d3ab95b16b)
